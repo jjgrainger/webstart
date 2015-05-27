@@ -21,7 +21,7 @@ npm install -g grunt-init
 git clone https://github.com/jjgrainger/webstart.git ~/.grunt-init/webstart
 ```
 
-#### Usage
+## Usage
 
 Create a project folder, then initialize the scaffold with `grunt-init webstart`
 
@@ -33,7 +33,7 @@ grunt-init webstart
 
 ## Notes
 
-* Licensed under the [MIT License](https://github.com/jjgrainger/wp-custom-post-type-class/blob/master/LICENSE)
+* Licensed under the [MIT License](LICENSE.md)
 * Maintained under the [Semantic Versioning Guide](http://semver.org)
 
 ## Author
