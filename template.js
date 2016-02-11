@@ -20,6 +20,8 @@ exports.template = function(grunt, init, done) {
     init.copyAndProcess(files);
 
     // create empty directories
+    grunt.file.mkdir('assets/css');
+    grunt.file.mkdir('assets/js');
     grunt.file.mkdir('assets/img');
 
     done();
