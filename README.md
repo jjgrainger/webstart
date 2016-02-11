@@ -1,4 +1,4 @@
-# Webstart v1
+# Webstart v1.1
 
 A simple scaffold for a front-end project
 
@@ -11,24 +11,36 @@ A simple scaffold for a front-end project
 
 #### Install grunt-init
 
-```
-npm install -g grunt-init
+```sh
+$ npm install -g grunt-init
 ```
 
 #### Install the template
 
-```
+```sh
 git clone https://github.com/jjgrainger/webstart.git ~/.grunt-init/webstart
 ```
 
-## Usage
+#### Usage
 
 Create a project folder, then initialize the scaffold with `grunt-init webstart`
 
+```sh
+$ mkdir my-project
+$ cd my-project
+$ grunt-init webstart
 ```
-mkdir my-project
-cd my-project
-grunt-init webstart
+
+Once setup run the following to install dependencies and start grunt
+
+```sh
+$ npm install
+```
+
+Once all dependencies are installed startup grunt and start working
+
+```sh
+$ grunt start
 ```
 
 ## Notes
